@@ -1,0 +1,12 @@
+<div class="class">
+  <div *ngIf="canShow">Estamos mostrando isso porque true</div>
+  <!-- Somente exibe a frase abaixo se o name for Deley - name está definido em .html -->
+  <h5 *ngIf="name === 'Deley'">O nome é Deley</h5>
+  <!-- com else -->
+  <h5 *ngIf="name === 'Deley'; else nameNotFound">Nome encontrado</h5>
+  <ng-template #nameNotFound>
+    <div>
+      <h5>Name not found</h5>
+    </div>
+  </ng-template>
+</div>

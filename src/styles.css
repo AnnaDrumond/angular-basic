@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+/*aqui entram os estilos que irão ser usadas em TODA a app*/
+*{
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+a{
+  color:orange
+}
+
+body{
+  padding-bottom: 500px;
+}
+
+.class{
+  border-bottom: 1px solid blue;
+  padding-bottom:3em;
+}
+

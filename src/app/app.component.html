@@ -1,0 +1,48 @@
+<nav>
+  <a routerLink="/">Home</a>
+  <br />
+  <a routerLink="/list">listas</a>
+  <hr />
+</nav>
+
+<h1>Hello World Angular!!!!!!!</h1>
+<p>Alguma coisa</p>
+<div class="link-div">
+  <a href="#" class="link-a"> Clique aqui </a>
+</div>
+<router-outlet></router-outlet>
+
+<!-- Importação dos componentes, eu poderia ainda ter um componente que tivesse seus próprios filhos:  -->
+<!-- <app-first-component> -->
+<!-- Aqui estaria o componente e tudo que há nele -->
+<!-- </app-first-component> -->
+
+<!-- Abaixo eu recebo o dado "name" no componente, e neste poderei utiliza-lo como quiser -->
+<app-parent-data [name]="Username" [userData]="userData">
+  <!-- Aqui estaria o componente e tudo que há nele -->
+</app-parent-data>
+
+<app-directives>
+  <!-- Aqui estaria o componente e tudo que há nele -->
+</app-directives>
+
+<app-if-render>
+  <!-- Aqui estaria o componente e tudo que há nele -->
+</app-if-render>
+
+<app-events>
+  <!-- Aqui estaria o componente e tudo que há nele -->
+</app-events>
+
+<app-emitter>
+  <!-- Aqui estaria o componente e tudo que há nele -->
+  <!-- este componente por sua vez tem outro componente dentro de si -->
+</app-emitter>
+
+<!-- <app-list-render> -->
+<!-- Aqui estaria o componente e tudo que há nele -->
+<!-- </app-list-render> -->
+
+<app-pipes> </app-pipes>
+
+<app-two-way-binding></app-two-way-binding>

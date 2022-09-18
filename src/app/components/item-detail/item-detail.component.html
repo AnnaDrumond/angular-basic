@@ -1,0 +1,8 @@
+<!-- este ngIf vai me permitir já chamar os dados que por sua vez somente serão
+acedidos caso "animal" contenha dados, ou seja, não é nulo e nem undefined -->
+<div class="class" *ngIf="animal">
+  <p>{{ animal.name }}'s informations sheet</p>
+  <p>Id : {{ animal.id }}</p>
+  <p>Type : {{ animal.type }}</p>
+  <p>Age : {{ animal.age }}</p>
+</div>

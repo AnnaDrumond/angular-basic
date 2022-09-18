@@ -1,0 +1,15 @@
+<div class="class">
+  <h2>Animals</h2>
+  <ul>
+
+    <!-- ngFor percorre a lista criando uma li para cada elemento -->
+    <li *ngFor="let animal of animals" >
+      <!-- Ao clicar no nome do animal eu iria para a pagina de detalhes do mesmo -->
+      Name: <a routerLink="/list/{{ animal.id }}">{{ animal.name }}</a> - Type: {{ animal.type }}
+      <button (click)="showAge(animal)">Show animal age:</button>
+      <button (click)="removeAnimal(animal)">Remove</button>
+    </li>
+  </ul>
+  <!-- vai exibir os dados do animal, conforme o botão do animal que foi clicado -->
+  <h3>{{ animalDetails }}</h3>
+</div>
