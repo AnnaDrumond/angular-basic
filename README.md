@@ -1,5 +1,9 @@
 # CursoAngularBasico
 
+https://dev.to/felipedsc/observables-como-funcionam-15eb
+https://stackblitz.com/edit/fdsc-angular-observables?file=src%2Fapp%2Fapp.component.ts
+https://tableless.com.br/entendendo-rxjs-observable-com-angular/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
 
 ## Development server
